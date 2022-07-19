@@ -7,7 +7,7 @@ package "readline-devel" do
 end
 
 git "/usr/local/rbenv" do
-  repository "git://github.com/sstephenson/rbenv.git"
+  repository "git://github.com/rbenv/rbenv.git"
   reference "master"
   action :sync
 end
@@ -19,7 +19,7 @@ end
 end
 
 git "/usr/local/ruby-build" do
-  repository "git://github.com/sstephenson/ruby-build.git"
+  repository "git://github.com/rbenv/ruby-build.git"
   reference "master"
   action :sync
 end
